@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  height: 60px;
+border-bottom: 1px solid #f0eed1;
+  .container {
+    display: flex;
+    .logo {
+      width: 20%;
+      margin: 15px;
+      a {
+        color: #151515;
+        font-size: 26px;
+        font-weight: 550;
+        cursor: pointer;
+        &:hover {
+          color: rgb(218, 26, 26);
+        }
+      }
+    }
+    .navBar {
+      width: 70%;
+      display: flex;
+      justify-content: center;
+      .navList {
+        display: flex;
+        margin: 20px;
+        text-align: center;
+        align-items: center;
+        gap: 65px;
+        a {
+          color: #000;
+          font-size: 18px;
+          font-weight: 600;
+          &:hover {
+            color: olive;
+            font-size: 22px;
+          }
+          &.active {
+            color: rgb(44, 79, 203);
+          }
+        }
+      }
+    }
+
+}
+}
